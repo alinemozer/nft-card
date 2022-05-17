@@ -1,0 +1,125 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: var(--main-bg);
+    color: var(--text-color);   
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.nft-card-container {
+    max-width: 350px;
+    background-color: var(--card-bg);
+    padding: 25px 25px 5px;
+    border-radius: 10px;
+}
+
+.nft-card-container .image-link {
+    position: relative;
+    display: flex;
+}
+
+.nft-card-container .image-link::before {
+    content: ' ';
+    background-color: var(--active-states-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3 ease-in-out;
+}
+
+.nft-card-container .image-link::after {
+    content: ' ';
+    background: url(../images/icon-view.svg) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.nft-card-container .image-link:hover::before {
+    opacity: 0.4;
+}
+
+.nft-card-container .image-link:hover::after {
+    opacity: 1;
+}
+
+.nft-card-container .image-link .image {
+    border-radius: 5px;
+}
+
+.nft-card-container .tittle-link .tittle {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.nft-card-container .tittle-link .tittle:hover,
+.creator .creator-info a:hover {
+    color: var(--active-states-color);
+}
+
+.value-information {
+    padding: 30px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 3px solid var(--line-color);
+}
+
+.value-information .value {
+color: var(--active-states-color);
+display: flex;
+}
+
+.value-information .value::before {
+    content: ' ';
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 11px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.value-information .days-left {
+    display: flex;
+    align-items: center;
+}
+
+.value-information .days-left::before {
+    content: ' ';
+    background: url(../images/icon-clock.svg) no-repeat center;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.creator .photo {
+    max-width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator .creator-info {
+    padding: 0 15px 0;
+    font-size: 16px;
+}
