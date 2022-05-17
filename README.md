@@ -1,7 +1,7 @@
 # nft-card
 Repositório com desafio do site Frontend Mentor, para treinamento de HTML e CSS com flexbox.
 
-📝 O grande desafio deste projeto, é o estado de alguns elementos ao passarmos o mouse sobre eles.
+📝 O grande desafio deste projeto, é o estado de alguns elementos ao passarmos o mouse sobre eles. <br>
 Como a opacidade na cor ciano, e o olho no centro da imagem do card.
  
 🖥 Tecnologias utilizadas:
