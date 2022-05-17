@@ -9,4 +9,5 @@ Como a opacidade na cor ciano, e o olho no centro da imagem do card.
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 ✔ Projeto finalizado:
+
 ![Nft card](https://user-images.githubusercontent.com/97855964/168702752-3200f7af-acc4-43df-b9dc-e93f6596486a.gif)
